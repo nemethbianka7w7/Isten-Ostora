@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attila, Isten Ostora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Attila, Isten Ostora</h1>
+                <p class="subtitle">Az Hunok legendás vezetője (406?-453)</p>
+            </div>
+        </header>
+
+        <!-- Navigáció -->
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#overview" class="nav-link active" data-section="overview">Áttekintés</a></li>
+                <li><a href="#history" class="nav-link" data-section="history">Történet</a></li>
+                <li><a href="#accomplishments" class="nav-link" data-section="accomplishments">Teljesítmények</a></li>
+                <li><a href="#campaigns" class="nav-link" data-section="campaigns">Hadjáratok</a></li>
+                <li><a href="#legacy" class="nav-link" data-section="legacy">Örökség</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Áttekintő részleg -->
+            <section id="overview" class="content-section active">
+                <h2>Áttekintés</h2>
+                <div class="section-content">
+                    <div class="text-image-container">
+                        <div class="text-content">
+                            <p>
+                                Attila (406? - 453) az ószláv és indoeurópai hunok legendás vezetője volt, aki az 5. század közepén 
+                                ő került hatalomra, és a Nyugat-római Birodalom összeomlásához vezetett. Ismert volt mohó hódításairól, 
+                                valamint a "Господарь" vagy "Isten Ostora" elnevezésről, amely félelmetes reputációját tükrözi.
+                            </p>
+                            <p>
+                                Attila szinte az egész ismert világot meghódította, beleértve az európai, délkelet-ázsiai és észak-afrikai 
+                                régiókat. Néhány év alatt az egyik legrémítő katonai erőből vált az elsöprő hatalomnak.
+                            </p>
+                        </div>
+                        <div class="image-container">
+                            <!-- interaktív kép sor ~48: Attila mellszobra -->
+                            <figure class="interactive-image" data-image="attila-bust" onclick="expandImage(event)">
+                                <!-- használj saját fájlnevet a src-ben -->
+                                <img src="attila-bust.jpg" alt="Attila mellszobra (művészi ábrázolás)">
+                                <figcaption>Kattints az képre a nagyításhoz</figcaption>
+                            </figure>
+                        </div>
+                        <!-- további kép az Áttekintésben -->
+                        <div class="image-container">
+                            <figure class="interactive-image" data-image="attila-portrait" onclick="expandImage(event)">
+                                <img src="AttilatheHun-56aaae785f9b58b7d008d9d3.jpg" alt="Attila ábrázolása">
+                                <figcaption>Attila ábrázolása – kattints a nagyításhoz</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Történelmi részleg -->
+            <section id="history" class="content-section">
+                <h2>Történet</h2>
+                <div class="section-content">
+                    <h3>Korai Élete és Háttere</h3>
+                    <p>
+                        Attila szétszedt családból származott. Apja, Mundzuk, a hun királyok közül volt, de nem volt ő a legfőbb 
+                        vezető. Az ő fia azonban egy különleges háborús stratéga és szervezőként nőtt fel. Ifjúságában otthagyta a 
+                        hun birodalmat, hogy Roma szolgálatában katonáskodjon, ahol sokat tanult a római hadi taktikáról.
+                    </p>
+                    <p>
+                        Testvérével, Bledalval megosztoztak az irányításon, amikor apjuk meghalt, de Attila később megölte testvérét, 
+                        hogy így összeegyesítse a hun birodalmat az ő kezei alatt körülbelül 434-ben.
+                    </p>
+
+                    <div class="image-container">
+                        <!-- interaktív kép sor ~75: hun birodalom térképe -->
+                        <figure class="interactive-image" data-image="hunnic-empire" onclick="expandImage(event)">
+                            <img src="hunnic-empire.jpg" alt="A Hun Birodalom Térképe (Attila alatt)">
+                            <figcaption>Kattints az képre a nagyításhoz</figcaption>
+                        </figure>
+                    </div>
+                    <!-- új kép Történet részhez -->
+                    <div class="image-container">
+                        <figure class="interactive-image" data-image="european-huns" onclick="expandImage(event)">
+                            <img src="201710-europai-hunok.jpg" alt="Európai hunok illusztráció">
+                            <figcaption>Az európai hunok – kattints a nagyításhoz</figcaption>
+                        </figure>
+                    </div>
+
+                    <h3>Felemelkedése a Hatalomra</h3>
+                    <p>
+                        Attila 434-ben lépett a hun birodalom teljhatalmas uraszékébe. Azonnal kezdett újra szervezni birodalmi 
+                        rendszerét, fegyelmezett erőket és összeegyesített különálló hunnic klánokat egy egységes katonai erővé. 
+                        Ezt követően rövidesen felismerte a szomszédos birodalmak gyengeségét.
+                    </p>
+                    <p>
+                        Hamarosan megtámadta a Nyugat-római Birodalmot, majd Keletróma ellen fordult. Az ő diplomáciai ügyessége 
+                        körül-fintort kapott számos birodalmaknak, hogy fizetéseket nyújtson neki az invázió elkerülésére.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Elégedettségi részleg -->
+            <section id="accomplishments" class="content-section">
+                <h2>Teljesítmények</h2>
+                <div class="section-content">
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <h3>🏰 Birodalom Egyesítése</h3>
+                            <p>
+                                Az összes hunnic törzs és klán egyesítése egy egységes, központosított 
+                                birodalmá, amely az Kelet-Európát uralta.
+                            </p>
+                        </div>
+                        <div class="achievement-card">
+                            <h3>⚔️ Katonai Győzelmek</h3>
+                            <p>
+                                Számos páratlan katonai győzelem a rómaiakkal és germánokkal szemben, 
+                                amely megalapozta a hun hegemóniát.
+                            </p>
+                        </div>
+                        <div class="achievement-card">
+                            <h3>💰 Tribális Fizetések</h3>
+                            <p>
+                                A Nyugat- és Keletrómai Birodalmak közül szerzett évenkénti tribális 
+                                fizetések, amely gazdasági hatalmának jele.
+                            </p>
+                        </div>
+                        <div class="achievement-card">
+                            <h3>🌍 Területi Hódítások</h3>
+                            <p>
+                                Óriási területi hódítások Észak-Európától Dél-Ázsiáig, amely az 
+                                legkiterjedtebb hunnic birodalom létrehozása.
+                            </p>
+                        </div>
+                        <div class="achievement-card">
+                            <h3>🤝 Diplomáciai Csatorna</h3>
+                            <p>
+                                Felhasználta a diplomáciát, hogy széppé sokat tett hódításokat 
+                                véres harc nélkül is.
+                            </p>
+                        </div>
+                        <div class="achievement-card">
+                            <h3>📜 Hatalom Konszolidálása</h3>
+                            <p>
+                                Egy jelentős katonai struktúra és törvényrendszer megteremtése, amely 
+                                az ő halála után még sokáig hatott.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="image-container">
+                        <!-- interaktív kép sor ~147: csatamező -->
+                        <figure class="interactive-image" data-image="attila-battle" onclick="expandImage(event)">
+                            <img src="hun-1024x576.jpg" alt="Attila a csatamezőn (művészi ábrázolás)">
+                            <figcaption>Kattints az képre a nagyításhoz</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hadjáratok részleg -->
+            <section id="campaigns" class="content-section">
+                <h2>Fő Hadjáratok</h2>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">437-441</div>
+                            <div class="timeline-content">
+                                <h3>Keletróma elleni Hadjáratok</h3>
+                                <p>
+                                    Attila tüneményes támadást indított a Keletrómai Birodalom ellen, 
+                                    Konstantinápoly város körüli erőszakos ostroma során. Ez a hadjárat számos 
+                                    település meghódításához és a Bizánc tribális fizetésének kikényszerítéséhez vezetett.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">447-449</div>
+                            <div class="timeline-content">
+                                <h3>A Balkán Meghódítása</h3>
+                                <p>
+                                    Attila a Balkán félsziget fele, hogy gyakorlatilag teljes mértékben 
+                                    meghódította. Számos város feldúlása és a római katonáik megsemmisítése után 
+                                    nagy háborús győzelmeket aratott.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">450-451</div>
+                            <div class="timeline-content">
+                                <h3>Nyugat-róma elleni Invázió</h3>
+                                <p>
+                                    Az egyik legjelentősebb hadjárat: Attila serege megtámadta a Nyugat-római 
+                                    Birodalmot. Gallia meghódításakor megállította az Uterpilicus csatában az erős 
+                                    germán és római szövetséges erőket.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">452</div>
+                            <div class="timeline-content">
+                                <h3>Itália Invázója</h3>
+                                <p>
+                                    Attila betört Olaszországba és számos város feldúlásán keresztülment, 
+                                    beleértve Aquileiát és Mediolanumot. Azonban a járványok és a szervezés 
+                                    hiánya miatt végül visszavonult.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">453</div>
+                            <div class="timeline-content">
+                                <h3>Attila Halála</h3>
+                                <p>
+                                    Attila 453-ban meghalt, valószínűleg egy szívütésből, házassági éjszakáján. 
+                                    Halála után a hun birodalom gyorsan szétesett, mivel unokatestvérei és 
+                                    filléi között egyenes viszály keletkezett.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Örökség részleg -->
+            <section id="legacy" class="content-section">
+                <h2>Örökség</h2>
+                <div class="section-content">
+                    <p>
+                        Attila halála után a hun birodalom gyorsan szétesett, de az ő hatása hosszú évszázadokon 
+                        keresztül megmarad az európai történelemben. Az ő megsemmisítő hadjárata nagy mértékben hozzájárult 
+                        a Nyugat-római Birodalom összeomlásához.
+                    </p>
+                    <p>
+                        Attila legendája az európai királyi udvarakon keresztül haladt. Sok későbbi hódító, például Napóleon, 
+                        illetve az ő stratégiáit tanulmányozta és tanulságokat vont le belőlük.
+                    </p>
+                    <p>
+                        Az európai kultúrában Attila szimbólummá vált a barbár pusztítás és a katonai zseni paradoxonának. 
+                        Számos irodalmi mű, film és történelmi tanulmány tárgyalta az ő életét és hadjáratait.
+                    </p>
+
+                    <div class="image-container">
+                        <!-- interaktív kép sor ~240: örökség kép -->
+                    </div>
+                    <!-- további kép az Örökség szekcióban -->
+                    <div class="image-container">
+                        <figure class="interactive-image" data-image="buda-attila" onclick="expandImage(event)">
+                            <img src="Buda_es_Attila.jpg" alt="Buda és Attila ábrázolása">
+                            <figcaption>Buda és Attila – kattints a nagyításhoz</figcaption>
+                        </figure>
+                    </div>
+
+                    <h3>Politikai és Katonai Hatás</h3>
+                    <p>
+                        Attila katonai taktikái, különösen az 1. és 2. frontos támadások, valamint az ellenség 
+                        morális erőjét szerté tevő stratégiája új megvilágításba helyezte a középkori hadviselést.
+                    </p>
+                    <p>
+                        Diplomáciai ügyessége azt mutatta, hogy az erő nem csupán katonai értelemben működik, 
+                        hanem szervezés, propaganda és fenyegetésen keresztül is. Ez a megközelítés végigmegy a történelem 
+                        különböző hódítóin és vezetőin.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Image Modal -->
+        <div id="imageModal" class="modal" onclick="closeImageModal(event)">
+            <span class="close" onclick="closeImageModal()">&times;</span>
+            <div class="modal-content">
+                <img id="modalImage" src="" alt="Nagyított kép">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2026 Attila, Isten Ostora - Források: Történelmi Wiki Oldal | Összeállított Információ</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
